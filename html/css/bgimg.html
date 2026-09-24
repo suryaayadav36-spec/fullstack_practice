@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matcha</title>
+
+    <style>
+        .new-img {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjw6cHxcysHEahNqSBUKVihQtPFKJ8QB1cp9KDITYYd5Ws7A6kRyhrcUg&s=10");
+            height: 400px;
+            width: 500px;
+
+            /* defines the image portion to show */
+            background-position: center;
+
+            /* contain - shows the whole image */
+            /* cover - Fills the element's dimensions completely */
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- img is a html native tag which shows the image as the actual content of the page -->
+    <img
+        height="500px"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSREBKt5-aumgEIPme5exgTFNeulbfPLcLSsnx1IC73-mTCNTqtqwkC01Y1&s=10"
+        alt="Matcha">
+
+    <!-- The image is part visual design of the html element. It provides flexibility to the image modifications -->
+    <div class="new-img"></div>
+
+</body>
+</html>

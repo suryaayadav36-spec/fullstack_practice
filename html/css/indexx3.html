@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: brown;
+            height:200px;
+            width:200px;
+            font-size:40px;
+        }
+        /*
+        Pseudo class used to add interaction to the state of the element
+        */
+
+        div:hover{
+            background-color:blueviolet;
+            color:white;
+        }
+        /*
+        Pseudo element is used to add/insert/modify content to the element without changing the HTML structure
+        */
+        div::first-letter{
+            text-transform: capitalize;
+        }
+        div::before{
+            content:"First ";
+        }
+        div::after{
+            content:" Last";
+        }
+    </style>
+</head>
+<body>
+    <div>text</div>
+</body>
+</html>

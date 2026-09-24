@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--tranform- what type of change should happen-->
+    <!--transition- how long the change should take/smoothly the change should happen-->
+    <!--ease-starts slow-> faster-> slow-->
+    <!--ease-in-Starts slow, ends fast-->
+    <!--ease-out-Starts fast, ends slow-->
+    <!--ease-in-out-Starts slow, ends slow-->
+    <style>
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        .square:hover{
+            background-color:limegreen;     
+            width: 300px;
+            /*transition: property duration timing-function delay;*/
+            transition:all 2s 0.1s;
+        }
+    </style>
+</head>
+<body>
+    <div class="square"></div>
+</body>
+</html>
